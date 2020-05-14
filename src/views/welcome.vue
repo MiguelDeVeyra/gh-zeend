@@ -669,7 +669,7 @@
     <section>
       <!-- Desktop CTA -->
       <div class="call__to__action hidden-sm-and-down">
-        <h3 class="text-center cta">Ready to get Started? <span>It's free</span> </h3>
+        <h3 class="text-center cta">Ready to get Started? <span>It's free!</span> </h3>
         <div class="text-center">
           <v-btn
 
@@ -684,7 +684,7 @@
       </div>
       <!-- Mobile CTA -->
       <div class="call__to__action__mobile hidden-md-and-up">
-        <h3 class="text-center ctam">Ready to get Started? <span>It's free</span> </h3>
+        <h3 class="text-center ctam">Ready to get Started? <span>It's free!</span> </h3>
         <div class="my-2 text-center">
           <v-btn
             depressed
@@ -992,9 +992,18 @@ body{
 
 .call__to__action .v-btn{
   color:#FFF !important;
-  width: 20%;
+  width: 25%;
   font-weight: 900;
   font-size: 2vh;
+}
+
+@media (max-width: 1024px) {
+  .call__to__action .v-btn{
+    color:#FFF !important;
+    width: 40%;
+    font-weight: 900;
+    font-size: 2vh;
+  }
 }
 
 
