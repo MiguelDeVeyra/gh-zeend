@@ -73,7 +73,7 @@
                 >
                 </v-img>
 
-                <h3 class="pb-1 pt-7 text-center title-1">Wide Market Visibility</h3>
+                <h3 class="pb-1 pt-7 text-center title-1">Wider Market Visibility</h3>
 
                 <v-card-text class="text--primary text-center ">
                   <p class="body-1">Having an online store means <br> wider market reach, which  <br> means more customers!</p>
@@ -162,7 +162,7 @@
                       >
                       </v-img>
                       <v-card-text class="subtitle-1">
-                        Having a website for your business means new source of revenue or sales.
+                        Having a website for your business means new source of sales.
                         Customers are gradually adapting the online shopping trend because of its convenience.
                       </v-card-text>
 
@@ -197,7 +197,7 @@
 
                 <h3 class="pb-1 pt-7 text-center title-1">Open 24/7</h3>
 
-                <v-card-text class="text-center body-1">
+                <v-card-text class="text-center text--primary">
                   <p class="body-1">Your customers can shop <br> any time of the day!</p>
                 </v-card-text>
                 <v-card-actions>
@@ -283,7 +283,7 @@
                         </v-img>
                         <v-card-text class="subtitle-1">
                           Small and medium business establishments normally  accept cash payments only.
-                          With a website there are many payment options such as payment gateways for debit and credit cards,
+                          With a website there are many payment options such as debit and credit cards,
                           over-the-counter (OTC), online banking, remittance centers and e-wallets.
                         </v-card-text>
 
@@ -345,7 +345,7 @@
                         <v-card-text class="subtitle-1">
                           Selling online is now simple and easy with new technologies.
                           Managing online store does not require additional staff or personnel.
-                          Customers can shop in your  online store themselves without assitance of sales clerk or cashier.
+                          Customers can shop in your  online store themselves without assistance of sales clerk or cashier.
                           The sales or transactions are also automatically recorded.
                         </v-card-text>
 
@@ -432,7 +432,7 @@
     <!--  How to signup on Zeend Process [md and up screens]-->
     <section class="mx-12  how__section">
       <div class="steps__header my-12">
-        <h2 class="how__section__head">How to Sign-up as a merchant at <span class="green--text">Zeend.com</span></h2>
+        <h2 class="how__section__head">How to Sign Up as a merchant at <span class="green--text">Zeend.com</span></h2>
       </div>
       <v-carousel
         show-arrows-on-hover
@@ -451,16 +451,17 @@
               <h1>1. Create a seller account</h1>
               <ul>
                 <li class="pt-5 title">
-                  <v-icon class="black--text ml-5 mr-12">arrow_forward</v-icon>
-                  Signup in the <span class="green--text">Zeend</span> Merchant Account
+                  <span class="ml-8">Sign Up as a <span class="green--text">Zeend</span> Merchant</span>
+
                 </li>
                 <li class="pt-5 title">
-                  <v-icon class="black--text ml-5 mr-12">arrow_forward</v-icon>
-                  Input store details (category, name, address)
+                  <span class="ml-8">Input store details (category, name, address)</span>
                 </li>
                 <li class="pt-5 title">
-                  <v-icon class="black--text ml-5 mr-12">arrow_forward</v-icon>
-                  Upload business permit and governement ID
+                  <span class="ml-8">Upload business permit and government ID</span>
+                </li>
+                <li class="pt-5 title">
+                  <span class="ml-8">Input complete mechant profile information</span>
                 </li>
               </ul>
             </v-col>
@@ -471,26 +472,23 @@
             wrap
             >
             <v-col cols="5">
-              <img src="/addboy.svg" alt="" height="90%" class="pl-12 ml-12">
+              <img src="/addboy.svg" alt="" height="100%" class="pl-12 ml-12">
             </v-col>
             <v-col cols="7" class="step__two__col__text">
               <h1>2. Set Up your prodcuts</h1>
               <ul>
                 <li class="pt-5 title">
-                  <v-icon class="black--text ml-5">arrow_forward</v-icon>
-                  Set Up your prodcuts on your <span class="green--text">Zeend</span> Merchant Website or Mobile App
-                </li>
-                <li class="pt-5 title">
-                  <v-icon class="black--text ml-5 mr-2">arrow_forward</v-icon>Set Up prodcuts on your online store choose from:
-                </li>
-                <li class="pt-5 title">
-                  <span class="ml-12 pl-12 green--text"><v-icon class="black--text mr-5">radio_button_unchecked</v-icon>Zeend</span> catalogue <br>
-                </li>
-                <li class="pt-5 title">
-                  <span class="ml-12 pl-12"><v-icon class="black--text mr-5">radio_button_unchecked</v-icon>Own product</span><br>
+                  <span class="ml-8">Set Up prodcuts on your online store. Choose from:</span>
+                    <ul>
+                      <li class="pt-5 ml-10 title">
+                        <span class="ml-8 green--text ">Zeend</span> Catalogue <br>
+                      </li>
+                      <li class="pt-5 ml-10 title">
+                        <span class="ml-8">My Product</span> (upload your own product)
+                      </li>
+                    </ul>
                 </li>
               </ul>
-
             </v-col>
           </v-row>
         </v-carousel-item>
@@ -505,12 +503,19 @@
               <h1>3. Manage Store</h1>
               <ul>
                 <li class="pt-5 title">
-                  <v-icon class="black--text ml-5 mr-8">arrow_forward</v-icon>
-                  View your stores performance at your
-                  <span class="green--text">Zeend</span> Merchant Website or Mobile App
+                  <span class="ml-8"> Input complete store information</span>
                 </li>
                 <li class="pt-5 title">
-                  <v-icon class="black--text ml-5 mr-8">arrow_forward</v-icon> Manage your orders and monitor your sales
+                  <span class="ml-8"> Review Prodcut Catalogue</span>
+                </li>
+                <li class="pt-5 title">
+                  <span class="ml-8"> Add Personnel</span>
+                </li>
+                <li class="pt-5 title">
+                  <span class="ml-8"> Update Prices</span>
+                </li>
+                <li class="pt-5 title">
+                  <span class="ml-8"> View Orders</span>
                 </li>
               </ul>
 
@@ -550,22 +555,19 @@
 
             <h3 class="pb-1 pt-7 text-center title-1">1. Create a Merchant account</h3>
 
-            <v-card-text class="body-2 text-center ">
+            <v-card-text class="body-2">
               <ul>
-                <li class="pt-5 pr-5">
-                  <div class="body-2">
-                    <v-icon class="black--text mr-5">arrow_forward</v-icon> Signup for free in the <span class="green--text">Zeend</span> <br>Merchant Website
-                  </div>
+                <li class="pt-5">
+                  <span class="ml-1">Sign Up as a <span class="green--text">Zeend</span> Merchant </span>
                 </li>
-                <li class="pt-5 pr-4">
-                  <div class="body-2">
-                    <v-icon class="black--text mr-5">arrow_forward</v-icon> Input store details (category,  <span class="ml-1"> name, address)</span>
-                  </div>
+                <li class="pt-5">
+                  <span class="ml-1">Input store details (category, name, address)</span>
                 </li>
-                <li class="pt-5 pr-5">
-                  <div class="body-2">
-                    <v-icon class="black--text mr-5">arrow_forward</v-icon> Upload Business Permit and Governement ID
-                  </div>
+                <li class="pt-5">
+                  <span class="ml-1">Upload business permit and government ID </span>
+                </li>
+                <li class="pt-5">
+                  <span class="ml-1">Input complete mechant profile information</span>
                 </li>
               </ul>
             </v-card-text>
@@ -586,23 +588,17 @@
 
             <h3 class="pb-1 pt-7 text-center title-1">2. Set Up your Products</h3>
 
-            <v-card-text class="body-2 text-center ">
+            <v-card-text class="body-2">
               <ul>
                 <li class="pt-5 pr-5">
-                  <v-icon class="black--text mr-5">arrow_forward</v-icon> Set Up Products on your <span class="green-text">Zeend</span> <span class="ml-5">Merchant Center or Zeend Mobile App</span>
-                </li>
-                <li class="pt-5 ml-1">
-                  <v-icon class="black--text mr-2">arrow_forward</v-icon> Set Up Products on your online store choose from:
-                </li>
-                <li class="pt-5 title">
-                  <div class=" body-2">
-                    <v-icon class="black--text pr-3">arrow_right</v-icon><span class="green--text">Zeend</span> catalogue<br>
-                  </div>
-                </li>
-                <li class="pt-5 title">
-                  <div class="body-2 mr-4">
-                    <v-icon class="black--text pr-4">arrow_right</v-icon>Own Products<br>
-                  </div>
+                  Set Up prodcuts on your online store. Choose from:
+                  <ul class="pt-2 pr-8">
+                    <li class="mr-12 "><span class="green--text pl-5">Zeend</span> Catalogue</li>
+                  </ul>
+                  <ul class="pt-2">
+                    <li class="mr-1"> <span class="pl-5">My Product (upload your own product)</span></li>
+                  </ul>
+
                 </li>
               </ul>
             </v-card-text>
@@ -625,12 +621,20 @@
 
             <v-card-text class="body-2">
               <ul>
-                <li class="pt-5 pr-4 text-center">
-                  <v-icon class="black--text mr-2">arrow_forward</v-icon> View your stores performance at
-                  <span class="green--text"> Zeend</span> MerchantCenter Website or Mobile App
+                <li class="pt-5 pr-4">
+                  <span class="ml-4">Input complete store information</span>
                 </li>
-                <li class="pt-5 pr-4 text-center">
-                  <v-icon class="black--text mr-2">arrow_forward</v-icon> Manage your orders and monitor your sales
+                <li class="pt-5 pr-12">
+                  <span class="ml-5">Review Prodcut Catalogue</span>
+                </li>
+                <li class="pt-5 pr-4">
+                  <span class="ml-5">Add Personnel</span>
+                </li>
+                <li class="pt-5 pr-4">
+                  <span class="ml-5">Update Prices</span>
+                </li>
+                <li class="pt-5 pr-4">
+                  <span class="ml-5">View Orders</span>
                 </li>
               </ul>
             </v-card-text>
@@ -668,12 +672,11 @@
         <h3 class="text-center cta">Ready to get Started? <span>It's free</span> </h3>
         <div class="text-center">
           <v-btn
-            depressed
+
             rounded
             x-large
-            outlined
             color="#EC614B"
-            height="80"
+            height="60"
           >
             CLICK HERE TO SIGN UP
           </v-btn>
@@ -686,7 +689,6 @@
           <v-btn
             depressed
             large
-            outlined
             rounded
             color="#EC614B"
             height="55"
@@ -697,35 +699,6 @@
       </div>
     </section>
 
-
-    <!-- Footer -->
-    <section class="mt-12">
-      <v-footer
-          color="green lighten-1"
-          padless
-        >
-          <v-row
-            justify="center"
-            no-gutters
-          >
-            <v-btn
-              v-for="link in links"
-              :key="link"
-              color="white"
-              text
-              class="my-2"
-            >
-              {{ link }}
-            </v-btn>
-            <v-col
-              class="green darken-1 py-4 text-center white--text"
-              cols="12"
-            >
-            © 2018-2020 Zeend. All Rights Reserved.
-            </v-col>
-          </v-row>
-      </v-footer>
-    </section>
   </div>
 </template>
 
@@ -740,15 +713,6 @@ export default {
 
   data(){
     return {
-      links: [
-        'Home',
-        'Priavacy Policy',
-        'Terms and Conditions',
-        'About Zeend',
-        'Services',
-        'Blog',
-        'Contact Us',
-      ],
       dialog: false,
       dialog1: false,
       dialog2: false,
@@ -913,6 +877,18 @@ body{
   list-style: none;
 }
 
+.how__section ul ul li::before{
+  content: "- ";
+  color: black;
+}
+
+.how__section li::before{
+  content: "• ";
+  color: #FF6584;
+  font-weight: 900;
+}
+
+
 .how__section__head{
   text-align: center !important;
   font-size: 4vh;
@@ -921,10 +897,21 @@ body{
 
 @media (max-width: 1366px) {
   .step__two img{
-    height: 60%;
+    height: 90%;
   }
   .step__two__col__text{
     padding-left: 5vh;
+  }
+
+  .step__four img{
+    height: 90%;
+  }
+
+  .step__one img{
+    height: 90%;
+  }
+  .step__two img{
+    height: 80%;
   }
 }
 
@@ -933,13 +920,13 @@ body{
     font-size: 2vh;
   }
   .step__one img{
-    height: 50%;
+    height: 75%;
   }
   .step__two h1{
     font-size: 2vh;
   }
   .step__two img{
-    height: 48%;
+    height: 85%;
   }
   .step__two__col__text{
     padding-left: 5vh;
@@ -954,7 +941,7 @@ body{
     font-size: 2vh;
   }
   .step__four img{
-    height: 50%;
+    height: 80%;
   }
 }
 
@@ -984,6 +971,17 @@ body{
   list-style: none;
 }
 
+.how__mobile li::before{
+  content: "• ";
+  color: #FF6584;
+  font-weight: 900;
+}
+
+.how__mobile ul ul li::before{
+  content: "- ";
+  color: black;
+}
+
 .call__to__action{
   margin-left: 20px;
   margin-right: 20px;
@@ -993,31 +991,21 @@ body{
 }
 
 .call__to__action .v-btn{
-  color:#EC614B!important;
-  border: 3px solid #EC614B;
-  width: 30%;
+  color:#FFF !important;
+  width: 20%;
   font-weight: 900;
   font-size: 2vh;
 }
 
-@media (max-width: 1366px) {
-  .call__to__action .v-btn{
-    color:#EC614B!important;
-    border: 2px solid #EC614B;
-    width: 40%;
-    font-weight: 900;
-    font-size: 100%;
-  }
-}
 
 .call__to__action__mobile{
   margin-left: 20px;
   margin-right: 20px;
 }
 .call__to__action__mobile .v-btn{
-  border: 2px solid #EC614B;
   font-size: 2vh;
   font-weight: 900;
+  color: #FFF;
 }
 
 
