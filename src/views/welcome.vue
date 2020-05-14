@@ -9,8 +9,8 @@
             <h2 class="hero__header d-none d-md-flex d-lg-none">Instant website <br> for your business!</h2>
             <div class="hero__text">
               <p>Do you own a grocery, pharmacy, hardware, rice store or </p>
-              <p>other business establishments? Build a <span class="red--text font-weight-bold">free!</span> website</p>
-              <p> for your business with <span class="green--text font-weight-bold">Zeend.com</span> !</p>
+              <p>other business establishments? Build a <span class="red--text font-weight-bold">free</span> website</p>
+              <p> for your business with <span class="green--text font-weight-bold">Zeend.com</span>!</p>
             </div>
             <v-btn
               depressed
@@ -35,9 +35,9 @@
           <h2 class="mobile__hero__tile black--text font-weight-bold">Instant website <br> for your business!</h2>
           <p class=" font-weight-regular black--text mr-12">Do you own a grocery, pharmacy, hardware,
             rice store or other business establishments? build a
-            <span class="red--text font-weight-bold">free!</span>
-            website for your business <br> with
-            <span class="green--text font-weight-bold">Zeend.com</span> !
+            <span class="red--text font-weight-bold">free</span>
+            website for your business with
+            <span class="green--text font-weight-bold">Zeend.com</span>!
           </p>
           <v-btn
             depressed
@@ -57,7 +57,7 @@
     <section>
       <div class="why__zeend mx-5">
         <div class="text-center">
-          <h1 class="why__zeend__header">Why your business needs a <span class="green--text">website</span> </h1>
+          <h1 class="why__zeend__header">Why your business needs a <span class="green--text">website</span></h1>
         </div>
           <v-row wrap class="why__first__row">
             <v-col cols="12" sm="6" lg="4" class="px-5">
@@ -138,7 +138,7 @@
                 <h3 class="pb-1 pt-5 text-center title-1">Additional Revenue</h3>
 
                 <v-card-text class="text--primary text-center">
-                  <p class="vody-1">Having a website for your business <br> means new soruce of revenue!</p>
+                  <p class="body-1">Having a website for your business <br> means new soruce of revenue!</p>
                 </v-card-text>
                 <v-card-actions>
                   <v-btn
@@ -198,7 +198,7 @@
                 <h3 class="pb-1 pt-7 text-center title-1">Open 24/7</h3>
 
                 <v-card-text class="text-center body-1">
-                  <p class="vody-1">Your customers can shop <br> any time of the day!</p>
+                  <p class="body-1">Your customers can shop <br> any time of the day!</p>
                 </v-card-text>
                 <v-card-actions>
                   <v-btn
@@ -258,13 +258,13 @@
                 <h3 class="pb-1 pt-5 text-center title-1">Payment Gateway</h3>
 
                 <v-card-text class="text--primary text-center">
-                  <p class="vody-1">Accept other payment options such as <br> debit or credit cards, online banking, remmitance or e-wallets</p>
+                  <p class="body-1">Accept other payment options such as <br> debit or credit cards, online banking, remmitance or e-wallets</p>
                 </v-card-text>
                 <v-card-actions>
                   <v-btn
                     color="#09bb00"
                     text
-                    class="mx-auto mt-5"
+                    class="mx-auto mt-4"
                     @click="dialog3=true"
                   >
                     Learn more
@@ -284,7 +284,7 @@
                         <v-card-text class="subtitle-1">
                           Small and medium business establishments normally  accept cash payments only.
                           With a website there are many payment options such as payment gateways for debit and credit cards,
-                          over-the-conter (OTC), online banking, remittance centers and e-wallets.
+                          over-the-counter (OTC), online banking, remittance centers and e-wallets.
                         </v-card-text>
 
                         <v-card-actions>
@@ -318,7 +318,7 @@
 
                 <h3 class="pb-1 mt-12 text-center title-1">Automated Transactions</h3>
 
-                <v-card-text class="text--primary text-center ">
+                <v-card-text class="text--primary text-center">
                   <p class="body-1">Managing your online store does not require additonal staff</p>
                 </v-card-text>
                 <v-card-actions>
@@ -381,13 +381,13 @@
                 <h3 class="pb-1 pt-5 text-center title-1">Advertise your store</h3>
 
                 <v-card-text class="text--primary text-center mb-1">
-                  <p class="vody-1">  Online presence is an effective and <br> cost efficient (if not free) way of <br> promoting your business. </p>
+                  <p class="body-1">  Online presence is an effective and <br> cost efficient (if not free) way of <br> promoting your business. </p>
                 </v-card-text>
                 <v-card-actions>
                   <v-btn
                     color="#09bb00"
                     text
-                    class="mx-auto mt-4"
+                    class="mx-auto mt-2"
                     @click="dialog5=true"
                   >
                     Learn More
@@ -452,7 +452,7 @@
               <ul>
                 <li class="pt-5 title">
                   <v-icon class="black--text ml-5 mr-12">arrow_forward</v-icon>
-                  Signup for free in the <span class="green--text">Zeend</span> Merchant Account
+                  Signup in the <span class="green--text">Zeend</span> Merchant Account
                 </li>
                 <li class="pt-5 title">
                   <v-icon class="black--text ml-5 mr-12">arrow_forward</v-icon>
@@ -506,8 +506,8 @@
               <ul>
                 <li class="pt-5 title">
                   <v-icon class="black--text ml-5 mr-8">arrow_forward</v-icon>
-                  View your stores performance at
-                  <span class="green--text">Zeend</span> Merchant Account or Mobile App
+                  View your stores performance at your
+                  <span class="green--text">Zeend</span> Merchant Website or Mobile App
                 </li>
                 <li class="pt-5 title">
                   <v-icon class="black--text ml-5 mr-8">arrow_forward</v-icon> Manage your orders and monitor your sales
@@ -554,17 +554,17 @@
               <ul>
                 <li class="pt-5 pr-5">
                   <div class="body-2">
-                    <v-icon class="black--text mr-5">arrow_forward</v-icon> Signup for free in the <span class="green--text">Zeend</span> <br>Merchant Account
+                    <v-icon class="black--text mr-5">arrow_forward</v-icon> Signup for free in the <span class="green--text">Zeend</span> <br>Merchant Website
                   </div>
                 </li>
                 <li class="pt-5 pr-4">
                   <div class="body-2">
-                    <v-icon class="black--text mr-5">arrow_forward</v-icon> Input store details (category,  <span class="ml-12"> name, address) Merchant Center</span>
+                    <v-icon class="black--text mr-5">arrow_forward</v-icon> Input store details (category,  <span class="ml-1"> name, address)</span>
                   </div>
                 </li>
                 <li class="pt-5 pr-5">
                   <div class="body-2">
-                    <v-icon class="black--text mr-5">arrow_forward</v-icon> Upload business permit and governement ID
+                    <v-icon class="black--text mr-5">arrow_forward</v-icon> Upload Business Permit and Governement ID
                   </div>
                 </li>
               </ul>
@@ -591,8 +591,8 @@
                 <li class="pt-5 pr-5">
                   <v-icon class="black--text mr-5">arrow_forward</v-icon> Set Up Products on your <span class="green-text">Zeend</span> <span class="ml-5">Merchant Center or Zeend Mobile App</span>
                 </li>
-                <li class="pt-5 pr-1">
-                  <v-icon class="black--text mr-5">arrow_forward</v-icon> Set Up Products on your store, choose from:
+                <li class="pt-5 ml-1">
+                  <v-icon class="black--text mr-2">arrow_forward</v-icon> Set Up Products on your online store choose from:
                 </li>
                 <li class="pt-5 title">
                   <div class=" body-2">
@@ -600,8 +600,8 @@
                   </div>
                 </li>
                 <li class="pt-5 title">
-                  <div class="mr-10 body-2">
-                    <v-icon class="black--text mx-4">arrow_right</v-icon>Own Products<br>
+                  <div class="body-2 mr-4">
+                    <v-icon class="black--text pr-4">arrow_right</v-icon>Own Products<br>
                   </div>
                 </li>
               </ul>
@@ -680,7 +680,7 @@
         </div>
       </div>
       <!-- Mobile CTA -->
-      <div class="call__to__action hidden-md-and-up">
+      <div class="call__to__action__mobile hidden-md-and-up">
         <h3 class="text-center ctam">Ready to get Started? <span>It's free</span> </h3>
         <div class="my-2 text-center">
           <v-btn
@@ -689,7 +689,7 @@
             outlined
             rounded
             color="#EC614B"
-            class="font-weight-bold"
+            height="55"
           >
             CLICK HERE TO SIGN UP
           </v-btn>
@@ -1008,6 +1008,16 @@ body{
     font-weight: 900;
     font-size: 100%;
   }
+}
+
+.call__to__action__mobile{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.call__to__action__mobile .v-btn{
+  border: 2px solid #EC614B;
+  font-size: 2vh;
+  font-weight: 900;
 }
 
 
