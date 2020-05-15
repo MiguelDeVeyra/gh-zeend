@@ -20,14 +20,17 @@
         </v-col>
         <v-col cols="12" md="5" class="AppDL">
           <div class="app__head">
-            <h3 class="footer__header__title">Download the App</h3>
+            <img src="logo.png" alt="" height="35px;">
+            <span class="dl__title">Download the App:</span>
+            <img src="/avail.svg" alt="" height="35px" class="imgApp mr-2">
+            <img src="/andr.png" alt="" height="35px" class="imgAnd">
           </div>
         </v-col>
-        <v-divider></v-divider>
-        <v-col cols="12" md="5" class="offset-1">
+        <v-divider class="my-6"></v-divider>
+        <v-col cols="12" md="5" class="offset-1 mt-4">
           <span class="body-1">Follow us on: </span><i class="fa fa-facebook mr-2" aria-hidden="true"></i><i class="fa fa-linkedin" aria-hidden="true"></i>
         </v-col>
-        <v-col cols="12" md="5" class="mt-2">
+        <v-col cols="12" md="5" class="mt-4">
           <div class="text-center">
             © 2018-2020 Zeend. All Rights Reserved.
           </div>
@@ -70,15 +73,18 @@ p{
 }
 .footer__header__title{
   font-size: 1.1em;
-  font-weight: lighter;
+  font-weight: bold;
   margin-bottom:  1vh;
 }
 .app__head{
-  margin-top: 8vh;
+  display: flex;
+  margin-top: 1vh;
+  flex-wrap: wrap;
 }
 @media (max-width:900px){
     .app__head{
-      margin-top: 0;
+      display: flex;
+      margin-top: 1vh;
     }
 }
 
@@ -86,6 +92,28 @@ p{
   .ZeendAbt, .AppDL{
     margin-left: 8vw;
   }
+}
+
+
+.AppDL{
+  margin-top: auto;
+  margin-bottom:auto;
+}
+
+@media (max-width:700px){
+  .dl__title{
+    font-size: 1em;
+    margin-right: 1vw;
+    margin-top: .4em;
+    width: 100%;
+    margin-bottom: 1vh;
+  }
+}
+
+.dl__title{
+  font-size: 1em;
+  margin-right: 1vw;
+  margin-top: .4em;
 }
 
 .fa{
