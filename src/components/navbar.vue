@@ -19,13 +19,13 @@
       <v-spacer></v-spacer>
 
       <div class="nav__btns">
-        <v-btn text v-on="on" color="black" class="hidden-sm-and-down">
+        <v-btn text color="black" class="hidden-sm-and-down">
           <span class="hidden-sm-and-down">SHOP NOW</span>
         </v-btn>
 
           <span class="mx-5 black--text hidden-sm-and-down">|</span>
 
-        <v-btn text v-on="on" color="black">
+        <v-btn text color="black">
           <span class="hidden-sm-and-down">MERCHANT LOG IN</span>
           <span class="hidden-md-and-up">LOG IN</span>
         </v-btn>
@@ -69,7 +69,6 @@
 
       >
         <v-list-item-group
-          v-model="group"
           active-class="blue-grey lighten-4 text--accent-4"
         >
           <v-list-item>
@@ -96,11 +95,6 @@ export default {
   data(){
     return {
       drawer:false,
-      links:[
-        {icon: 'dashboard', text: 'Dashboard', route: '/'},
-        {icon: 'folder', text: 'My Projects', route: '/projects'},
-        {icon: 'person', text: 'Team', route: '/team'}
-      ],
     }
   },
 

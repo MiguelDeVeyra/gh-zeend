@@ -16,7 +16,7 @@ export default {
 
   components: {
     navbar,
-    zfooter
+    zfooter,
   },
 
   data: () => ({
