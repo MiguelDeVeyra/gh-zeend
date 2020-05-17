@@ -10,8 +10,7 @@
       class="hidden-sm-and-down"
       >
       <v-toolbar-title class="text-uppercase black--text logo__nav">
-        <img src="/zlogoword.png" alt="" height="85px" class="pt-2 pb-2 d-none d-sm-flex">
-        <img src="/zlogo.png" alt="" height="50px" class="pt-1 hidden-sm-and-up">
+        <img src="/logo5.png" alt="" height="85px" class="pt-4 pb-2 d-none d-sm-flex">
       </v-toolbar-title>
 
 
@@ -47,7 +46,7 @@
       class="hidden-md-and-up"
       >
       <v-toolbar-title class="text-uppercase black--text logo__nav">
-        <img src="/zlogoword.png" alt="" height="85px" class="pt-5 pb-3">
+        <img src="/logo5.png" alt="" height="85px" class="pt-5 pb-3">
       </v-toolbar-title>
 
 

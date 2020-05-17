@@ -42,7 +42,7 @@
           <v-btn
             depressed
             large
-            color="#09bb00"
+            color="#EC614B"
             class=" mt-2 font-weight-bold white--text"
           >SIGN UP NOW <v-icon class="ml-5">arrow_forward</v-icon> </v-btn>
         </div>
