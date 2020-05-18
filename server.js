@@ -6,7 +6,7 @@ app.use(express.static(__dirname + "/dist"));
 
 // rerouting to the index file
 app.get(/.*/, function (req, res) {
-  res.send(__dirname + "/dist/index.html")
+  res.sendfile(__dirname + "/dist/index.html")
 });
 
 app.listen(port);
