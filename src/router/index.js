@@ -1,7 +1,9 @@
 import Vue from 'vue'
+import Vuex from 'vuex'
 import VueRouter from 'vue-router'
 import welcome from '../views/welcome.vue'
 
+Vue.use(Vuex)
 Vue.use(VueRouter)
 
   const routes = [
